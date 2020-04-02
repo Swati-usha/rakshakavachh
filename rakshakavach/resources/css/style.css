@@ -1,5 +1,5 @@
 /*
-orange color :#e67e22
+orange color :#96551b
 */
 
 
@@ -74,10 +74,10 @@ h3{
    }
 
 h1{
-    
-    margin:0;
-    margin-bottom:20px;
-    color:#fff;
+    margin-top: 200px;
+    margin-left:400px;
+    margin-bottom:100px;
+    color:#550a0a;
     font-size:240%; 
     word-spacing: 4px;
     letter-spacing:1px;
@@ -100,7 +100,7 @@ h3{
 h2:after {
     display:block;
     height:2px;
-    background-color: #e67e22;
+    background-color: #96551b;
     content:" ";
     width:100px;
     margin:0 auto;
@@ -146,10 +146,10 @@ h2:after {
 
 a:link,
 a:visited{
-    color:#e67e22;
+    color:#96551b;
     text-decoration:none;
     padding-bottom: 1px;
-    border-bottom:1px solid #e67e22;
+    border-bottom:1px solid #96551b;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
     
@@ -183,16 +183,16 @@ input[type=submit]{
 .btn-full:visited,
 input[type=submit]
 {
-    background-color:#e67e22;
-    border:1px solid #e67e22;
+    background-color:#96551b;
+    border:1px solid #96551b;
     color:#fff;
     margin-right:15px;
     }
 
 .btn-ghost:link,
 .btn-ghost:visited{
-     border:5px solid #e67e22 ;
-     color:#e67e22;
+     border:5px solid #96551b ;
+     color:#96551b;
     margin-top:25px;
     margin-left:230px;
 }
@@ -223,8 +223,6 @@ input[type=submit]:active
 /*------------------------------------------*/
 
 header{
-    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(100, 96, 96, 0.7)),to(rgba(162, 156, 156, 0.7))),url(img/saveearth.jpg);
-    background-image:linear-gradient(rgba(152, 147, 147, 0.7),rgba(0, 0, 0, 0.7)),url(img/saveearth.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -240,15 +238,16 @@ header{
     left:50%;
     -webkit-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%);
-    color:#fffcfc;
+    color:#550a0a;
  }
 
 
 .logo{
-    height:100px;
+    height:200px;
     width:auto;
     float:left;   
-    margin-top:20px;
+    margin-top:60px;
+    margin-left:60px;
 }
 
 .main-nav{
@@ -277,7 +276,7 @@ header{
 
 .main-nav li a:hover,
 .main-nav li a:active{
-     border-bottom:2px solid #e67e22; 
+     border-bottom:2px solid #96551b; 
 }
 /*--------------------------------------------*/
 /*FEATURES*/
@@ -365,7 +364,7 @@ header{
 
 .works-step div{
     color:#e67e22;
-    border: 2px solid #e67e22;
+    border: 2px solid #96551b;
     display:inline-block;
     border-radius:50%;
     height:54px;
@@ -494,7 +493,7 @@ cite img{
     font-size:300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color:#e67e22;
+    color:#96551b;
 
 }
 .plan-price span{

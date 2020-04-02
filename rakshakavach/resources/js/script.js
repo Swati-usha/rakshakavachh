@@ -39,7 +39,7 @@ $('document').ready(function(){
       });
 });
     
-    /* Animations on Scroll */
+    /* Animations on Scroll 
     $('.js--wp-1').waypoint(function(direction){
         $('.js--wp-1').addClass('animated fadeIn');
     },{
@@ -64,4 +64,4 @@ $('document').ready(function(){
         offset:'50%'
     });
     
-});
+});*/
